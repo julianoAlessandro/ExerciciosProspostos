@@ -19,7 +19,7 @@ Exercícios retirados do material do Professor Marcos Roberto de Moraes
   <li>calcular o valor daquele computador;</li> 
   <li>e ainda tera a capacidade de alterar o valor se necessário.</li>
   
-    </ul>
+    
 
 </p>
 <hr>
