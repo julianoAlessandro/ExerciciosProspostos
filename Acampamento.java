@@ -5,19 +5,21 @@ public class Acampamento {
 	public Acampamento() {
 		
 	}
+	//Passagem  de valor sem usar parametros, agora eu preciso chamar ele
 	
 	public Acampamento(String nome, char equipe, int idade) {
 		this.nome = nome;
 		this.equipe = equipe;
 		this.idade = idade;
 	}
+	// passagem de atributos por parametro
 	
 	public void  imprimir() {
-		System.out.println( "nome:"+ nome + "equipe:" + equipe + "idade:"+ idade);
+		System.out.println( "\nnome:"+ nome + "\nequipe:" + equipe + "\nidade:"+ idade);
 	}
 	
 	public void separarGrupo() {
-		if(idade > 6 && idade <= 10) {
+		if(idade >= 6 && idade <= 10) {
 			this.equipe = 'A';
 			
 		}
@@ -30,7 +32,7 @@ public class Acampamento {
 	
 		}
 		
-		System.out.println(this.equipe);
+		System.out.println("Sua equipe é : "+this.equipe);
 		
 	}
 }
