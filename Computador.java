@@ -15,16 +15,16 @@ public class Computador {
 	}//Fim da passagem de parametro 
 	
 	public void imprimir() {
-		System.out.println("marca:"+ marca +"cor:"+cor+"Modelo:"+modelo+"preço:"+preco+"NumeroSerie:"+NumeroSerie);
+		System.out.println("\nmarca:"+ marca +"\ncor:"+cor+"\nModelo:"+modelo+"\npreço:"+preco+"\nNumeroSerie:"+NumeroSerie);
 	}
 	
 	public void calcularValor() {
 		if(marca == "HP" || marca == "hp") {
-			preco =  preco * 1.3;
+			this.preco =  this.preco * 1.3;
 			
 		}
 		else if(marca == "IBM"  || marca == "ibm") {
-			preco = preco * 1.5;
+			this.preco = this.preco * 1.5;
 		}
 		else {
 			System.out.println("Seu preço se mantem original ou seja:"+preco);
@@ -34,7 +34,7 @@ public class Computador {
 	
 	public int alterarValor(double valor) {
 		if(valor > 0) {
-			preco = valor;
+			this.preco = valor;
 			System.out.println("Esse será o novo preço:"+valor);
 			return 1;
 		}
