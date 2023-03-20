@@ -34,23 +34,23 @@ Exercícios retirados do material do Professor Marcos Roberto de Moraes
    Os exercicios que não estão na pasta,são versões que eu tentei sozinho, logo ao deccorrer da correção do professor eu percebi alguns erros, redundâncias e
     maneiras mais rápidas do programa executar determinados comandos condiconais.<br>
     </p>
-    <h4>Nivel de acessibilidade</h4><br>
+    <h4>Nivel de acessibilidade:</h4><br>
     <p>
      No meu código   o nível de acessibilidade dos atributos está público, no entanto meu Professor deixou os mesmos privados, dando maior segurança
      para os dados acessados.Nesse contexto, contribuindo para o uso de getters e setters na classe testadora.<br>
      </p>
-     <h4>Redunância</h4><br>
+     <h4>Redundância:</h4><br>
      <p>
       Na classe equipamento, na parte das condicionais eu usava o <strong>this</strong>  para me referir que tal atributo está recebendo esse novo valor,
       entretanto o uso do mesmo  é um pleonasmo.Caso fosse um <i>SET</i> o uso estaria correto pois eu estaria passando como parâmetro variaveis e iria fazer
        os atributos receberem a variavel.<br>
        </p>
-       <h4>Condicionais</h4><br>
+       <h4>Condicionais:</h4><br>
        <p>
        Para o programa ser executado de maneira mais rápida, o Professor optou por usar os returns, pois  se os mesmos verificarem que tal 
        condição é verdadeira ele não precisa testar as outras condicionais.Logo tornando o programa mais rápido.
                  
-    </p>
+    
     
     
   
