@@ -48,7 +48,7 @@ Exercícios retirados do material do Professor Marcos Roberto de Moraes
        <h4>Condicionais</h4><br>
        <p>
        Para o programa ser executado de maneira mais rápida, o Professor optou por usar os returns, pois  se os mesmos verificarem que tal 
-       condição é verdadeira ele não precisa testar as outras condicionais.
+       condição é verdadeira ele não precisa testar as outras condicionais.Logo tornando o programa mais rápido.
                  
     </p>
     
